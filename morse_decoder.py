@@ -54,7 +54,7 @@ def create_gui():
         output.insert(tk.END, result)
 
     root = tk.Tk()
-    root.title("🆘 Morse Code Translator")
+    root.title("Morse Code Translator")
     tk.Label(root, text="Enter text or Morse code:").pack()
     entry_text = tk.Text(root, height=5, width=50)
     entry_text.pack()
